@@ -52,7 +52,7 @@ class Owner
     # dogs_owned.each do |dog|
     #   puts "#{dog.owner.name}, #{dog.name}"
     # end
-    dogs_owned
+    #dogs_owned
   end
   
   def buy_cat(cat_name)
