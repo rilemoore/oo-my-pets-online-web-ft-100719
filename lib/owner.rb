@@ -29,30 +29,11 @@ class Owner
   
   def cats
     @cats
-    # cats_owned = []
-    # Cat.all.each do |cat|
-    #   if(cat.owner.name == self.name)
-    #     cats_owned << cat
-    #     @cats << cat
-    #   end
-    # end
-    # cats_owned
+
   end
   
   def dogs
-    
     @dogs
-    # dogs_owned = []
-    # Dog.all.each do |dog|
-    #   if(dog.owner.name == self.name)
-    #     dogs_owned << dog
-    #   end
-    # end
-    
-    # dogs_owned.each do |dog|
-    #   puts "#{dog.owner.name}, #{dog.name}"
-    # end
-    #dogs_owned
   end
   
   def buy_cat(cat_name)
