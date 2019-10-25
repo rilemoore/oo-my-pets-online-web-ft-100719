@@ -72,13 +72,15 @@ class Owner
   end
   
   def list_pets
-    @dogs.each do |dog|
-      puts "#{dog.name} "
-    end
     
-    @cats.each do |cat|
-      puts "#{cat.name} "
-    end
+    puts "I have #{@dogs.count} dog(s), and #{@cats.count} cat(s)."
+    # @dogs.each do |dog|
+    #   puts "#{dog.name} "
+    # end
+    
+    # @cats.each do |cat|
+    #   puts "#{cat.name} "
+    # end
   end
   
 end
