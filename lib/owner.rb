@@ -37,27 +37,13 @@ class Owner
   end
   
   def buy_cat(cat_name)
-    
     new_cat = Cat.new(cat_name,self)
     @cats << new_cat 
-    # Cat.all.each do |cat|
-    #   if(cat.name == cat_name)
-    #     cat.owner = self.owner
-    #   end
-    # end
-    
   end
   
   def buy_dog(cat_name)
-    
     new_dog = Dog.new(dog_name,self)
     @dogs << new_dog
-    # Dog.all.each do |dog|
-    #   if(dog.name == dog_name)
-    #     dog.owner = self.owner
-    #   end
-    # end
-    
   end
   
   
